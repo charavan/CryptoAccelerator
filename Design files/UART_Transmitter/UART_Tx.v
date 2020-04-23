@@ -40,13 +40,13 @@ always @(posedge Clock or posedge Reset) begin
 
 	if(Reset) begin 
 
-		c_state <= IDLE;
+		c_state     <= IDLE;
 		d_shift_reg <= 2'b00;
 	end
 
 	else  begin
 		
-	        c_state <= n_state;
+	        c_state     <= n_state;
 		d_shift_reg <= { d_shift_reg[0], Tx_en };
 	end
 
