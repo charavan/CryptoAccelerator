@@ -11,7 +11,7 @@ wire [8:0] Baudrate;
 wire[3:0] N_bits;
 wire Tick_out, Tx_done;
 
-assign Baudrate     = 9'd54;
+assign Baudrate     = 9'd24;
 assign N_bits       = 4'b1000;
 
 

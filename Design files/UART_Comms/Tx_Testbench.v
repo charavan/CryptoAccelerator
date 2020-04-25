@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module Tx_Testbench; // For constraints we need clock , reset ,  message_in[7:0]
+module Tx_Testbench; // For constraints we need clock , reset ,  message_in[7:0] ,  push  Button 
 
 
 

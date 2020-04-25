@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Thu Apr 23 19:24:07 2020
+| Date         : Sat Apr 25 17:15:42 2020
 | Host         : DESKTOP-F56SUD4 running 64-bit major release  (build 9200)
 | Command      : report_drc -file Transmitter_Top_drc_routed.rpt -pb Transmitter_Top_drc_routed.pb -rpx Transmitter_Top_drc_routed.rpx
 | Design       : Transmitter_Top
@@ -50,7 +50,7 @@ Related violations: <none>
 
 PDRC-153#1 Warning
 Gated clock check  
-Net BG1/Baudrate_count_reg[3]_0 is a gated clock net sourced by a combinational pin BG1/msg_in_reg[7]_i_6/O, cell BG1/msg_in_reg[7]_i_6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net BG1/Baudrate_count_reg[7]_0 is a gated clock net sourced by a combinational pin BG1/msg_in_reg[7]_i_6/O, cell BG1/msg_in_reg[7]_i_6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PLHOLDVIO-2#1 Warning

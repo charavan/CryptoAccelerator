@@ -2,8 +2,8 @@
 
 module UART_Tx( input 	    Clock, Reset, Tx_en,Tick,
                 input [7:0]               Message_in, 
-		input [3:0]                   N_bits,
-		output               Tx_out, Tx_done  );
+				input [3:0]                   N_bits,
+				output               Tx_out, Tx_done  );
 
 
 parameter IDLE = 1'b0 , SEND = 1'b1;    // FSM States

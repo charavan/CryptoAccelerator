@@ -17,7 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param xicom.use_bs_reader 1
 set_msg_config  -id {Vivado 12-818}  -string {{WARNING: [Vivado 12-818] No files matched 'C:/Users/chris-pc/Desktop/Crypto Accelerator/Design files/UART_Transmitter/Transmitter_prot/Transmitter_prot.srcs/sources_1/bd/design_1/design_1.bd'}}  -suppress 
 create_project -in_memory -part xc7a100tcsg324-1
 
